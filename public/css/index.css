@@ -1,0 +1,24 @@
+:root {
+    --colorBackgroundPrimary: #26262e;
+    --colorBackgroundSecondary: #32333d;;
+    --colorText: #adadb1;
+}
+
+body {
+    background-color: var(--colorBackgroundSecondary);
+    color: var(--colorText);
+}
+
+.theme-primary {
+    background-color: var(--colorBackgroundPrimary);
+    color: var(--colorText);
+}
+
+.theme-secondary {
+    background-color: var(--colorBackgroundSecondary);
+    color: var(--colorText);
+}
+
+a {
+    color: var(--colorText);
+}

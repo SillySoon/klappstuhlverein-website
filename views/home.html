@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Klappstuhlverein - Home</title>
+
+    <!-- Link CSS files -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+
+    <link rel="shortcut icon" href="/favico/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark theme-primary mb-3">
+        <div class="container text-center">
+            <a class="navbar-brand me-auto" href="/">
+                <img src="/favico/favicon.ico" width="33" height="33" alt="">
+                Klappstuhlverein
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/regelwerk">Regelwerk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://klappstuhlverein.de:3001/status/klappstuhlverein" target="_blank">Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.com/invite/BKu66sXPGr" target="_blank">Discord</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://klappstuhlverein.cmod.app/" target="_blank">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <div class="p-5 mb-4 rounded-3">
+                <div class="container-fluid py-5 text-center">
+                    <h1 class="fs-1">Willkommen im Klappstuhlverein</h1>
+                    <p class="fs-4">Vanilla basierter SCP Server mit wachsender Community, sei ein Teil von ihr!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feed -->
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm theme-primary">
+                    <img src="/images/WithArtwork.png" class="rounded-2 m-1" alt="Discord Image">
+                    <div class="card-body">
+                        <h3>Discord Server</h3>
+                        <p class="card-text">Joine unserem wunderschönen Discord Server um immer auf dem neusten Stand zu sein und mit der Community zu interagieren!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('/invite')" type="button" class="btn btn-sm btn-outline-secondary">Join Discord</button>
+                            </div>
+                            <small></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm theme-primary">
+                    <img src="/images/WithArtwork.png" class="rounded-2 m-1" alt="Discord Image">
+                    <div class="card-body">
+                        <h3>Status Seite</h3>
+                        <p class="card-text">Lass dir den Status unserer Server jederzeit anzeigen. Falls ein Service down ist, wirst du es als Erstes hier finden!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('http://klappstuhlverein.de:3001/status/klappstuhlveren')" type="button" class="btn btn-sm btn-outline-secondary">Open Status Page</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm theme-primary">
+                    <img src="/images/WithArtwork.png" class="rounded-2 m-1" alt="Discord Image">
+                    <div class="card-body">
+                        <h3>SCP:SL Profil</h3>
+                        <p class="card-text">Verbinde deinen Discord Account um Informationen über deine SCP:SL Statistiken auf unserem Netzwerk zu bekommen.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://klappstuhlverein.cmod.app/')" type="button" class="btn btn-sm btn-outline-secondary">Show CedMod Panel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container mt-5">
+        <footer class="py-3 my-4 border-top">
+            <p class="text-center">© 2023 - Made with Love by SillySoon - <a href="https://github.com/SillySoon/klappstuhlverein-website" target="_blank">Github</a></p>
+        </footer>
+    </div>
+
+
+    <!-- Link to Bootstrap JavaScript file -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

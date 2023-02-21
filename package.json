@@ -1,0 +1,28 @@
+{
+  "name": "klappstuhlverein-website",
+  "version": "1.0.0",
+  "description": "The official website of https://klappstuhlverein.de/",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "start:dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SillySoon/klappstuhlverein-website.git"
+  },
+  "author": "SillySoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SillySoon/klappstuhlverein-website/issues"
+  },
+  "homepage": "https://github.com/SillySoon/klappstuhlverein-website#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "silly-logger": "^1.2.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "nodemon": "^2.0.20"
+  }
+}
